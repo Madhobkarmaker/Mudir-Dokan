@@ -1,248 +1,175 @@
-.registered_customer{
-   background: #FFFFFF;
-   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-   border-radius: 10px;
-   width: 100%;
+.registered_customer {
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 100%;
 }
 
-.registered_customer_page{
-   padding-top: 35px; 
+.registered_customer_page {
+  padding-top: 35px;
 }
 
-.registered_customer_page h1{
-   font-weight: 600;
-   font-size: 24px;
-   line-height: 30px;
-   color: #000000;
-   text-align: center;
+.registered_customer_page h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
 }
-.registered_customer_page p{
-   font-size: 14px;
-   line-height: 17px;
-   color: #081F32;
-   text-align: center;
-   padding-top: 10px;
-}
-
-.login_form{
-   margin: 30px 40px 10px 40px ;
+.registered_customer_page p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #081f32;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.login_form label{
-   font-weight: 500;
-   font-size: 14px;
-   line-height:  17px ;
-   color: #000000;
+.login_form {
+  margin: 30px 40px 10px 40px;
 }
 
-.login_form input{
-   width: 100%;  
+.login_form label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }
 
-.login_form input[type="text"], input[type="password"] {
-   border: none;
-   outline: none;
-   border-bottom: 1px solid #333333;
-   background: transparent;
-   font-size: 14px;
-   color: #000;
-   padding: 10px 0px;
+.login_form input {
+  width: 100%;
+}
+
+.login_form input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333333;
+  background: transparent;
+  font-size: 14px;
+  color: #000;
+  padding: 10px 0px;
 }
 
 .forget_password {
-   font-weight: 600;
-   font-size: 14px;
-   line-height: 17px;
-   color: #219653;
-   margin: 0px 40px;
-   text-decoration: none;
-   cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #219653;
+  margin: 0px 40px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.btn{
-   margin: 20px 40px;
+.btn {
+  margin: 20px 40px;
 }
-.btn button{
-   width: 100%;
-   background: #219653;
-   border-radius: 5px;
-   border: none;
-   outline: line; 
-   padding: 4px 0px;
+.btn button {
+  width: 100%;
+  background: #219653;
+  border-radius: 5px;
+  border: none;
+  outline: line;
+  padding: 4px 0px;
 }
-.btn button:hover{
-   background-color: #137c41;
- }
-
-.btn span{
-   font-weight: 500;
-   font-size: 18px;
-   line-height: 22px;
-   color: #FFFFFF;
-}
-.bottom{
-   margin: 0px 40px; 
-   padding-bottom: 30px;
-}
-.bottom p{
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 22px;
-   color: #BDBDBD;
-   text-align: center;
-}
-.bottom a{
-   text-decoration: none;
-   cursor: pointer;
+.btn button:hover {
+  background-color: #137c41;
 }
 
+.btn span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.bottom {
+  margin: 0px 40px;
+  padding-bottom: 30px;
+}
+.bottom p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #bdbdbd;
+  text-align: center;
+}
+.bottom a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Create customer */
 
-.customer_info{
-  
-   background: #FFFFFF;
-   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-   border-radius: 10px;
-   padding-top: 40px;
+.createAccount {
+  margin: 50px 40px;
+}
+.createAccount_title h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+}
+.createAccount_title p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #081f32;
+  text-align: center;
+  margin-top: 10px;
+}
+.createAccount_name {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.customer_account h1{
-   font-weight: 600;
-   font-size: 24px;
-   line-height: 30px;
-   color: #000000;
-   text-align: center;
+.createAccount_input1 {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
 }
-
-.customer_account p{
-   font-size: 14px;
-   line-height: 17px; 
-   color: #081F32;
-   text-align: center;
-   padding-top: 10px;
+.createAccount_input2 {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  margin-left: 50px;
 }
-
-.customer_view{
-   padding: 0px 40px;
+.createAccount_details {
+  margin-top: 50px;
 }
-
-.registerData{
-   margin-top: 30px;
-   display: flex;
-   justify-content: space-between;
+.checkbox {
+  margin-left: 20px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #383838;
 }
-
-.first_input_field {
-   margin-top: 25px;
-   width: 45%;
-}
-
-.second_input_field{
-   margin-top: 25px;
-}
-
-.first_input_field p , .second_input_field p{
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 17px;
-   color: #000000;
-}
-
-.first_input_field input , .second_input_field input{
-   width: 100%;
-   margin: 5px 0px;
-   border: none;
-   outline: none;
-   border-bottom: 1px solid #333333;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 17px;
-   color: #000000;
-   padding: 10px 0px;
-}
-
-.checkbox label{
-   font-size: 13px;
-   line-height: 16px;
-   color: #383838;  
-   padding-left: 15px;
-}
-
-.checkbox label > a{
+.checkbox a {
   text-decoration: none;
-  cursor: pointer;
-  color: #48d384;
 }
-
-.singUp{
-   margin: 25px 0px;
-}
-
-.singUp button{
-   width: 100%;
-   background: #219653;
-   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
-   border-radius: 5px;
-   padding: 10px 0px;  
-   border: none;
-   outline: none;
-   font-weight: 500;
-   font-size: 18px;
-   line-height: 22px;
-   color: #FFFFFF;  
-}
-
-.singUp button:hover{
-   background-color: #137c41;
-}
-
-.bottom{
-   margin: 25px 0px;
-}
-
-.bottom p{
-   font-weight: 500;
-   font-size: 18px;
-   line-height: 22px ;
-   color: #BDBDBD;
-}
-
-.bottom p a{
-   color: #0b8540;
-}
-
-
 /* Responsive part */
 
-@media (max-width: 460px) { 
-   .customer_account h1 {
-      text-align: left;
-     
-   }
-   .customer_account p {
-      text-align: left;
-     
-   }
-   .customer_account{
-      margin: 0px 40px;
-   }
-   .registerData{
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-   }
-   .registered_customer_page h1{
-      text-align: left;
-   }
-   .registered_customer_page p{
-      text-align: left;
-   }
-   .registered_customer_page {
-      margin: 0px 40px;
-   }
-
+@media (max-width: 460px) {
+  .customer_account h1 {
+    text-align: left;
+  }
+  .customer_account p {
+    text-align: left;
+  }
+  .customer_account {
+    margin: 0px 40px;
+  }
+  .registerData {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .registered_customer_page h1 {
+    text-align: left;
+  }
+  .registered_customer_page p {
+    text-align: left;
+  }
+  .registered_customer_page {
+    margin: 0px 40px;
+  }
 }
-
-
