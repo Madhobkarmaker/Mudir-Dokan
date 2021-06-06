@@ -1,12 +1,7 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
 import classes from "./Customer_account.module.css";
 
 function Registered_customer() {
-  const history = useHistory();
-  const changeRoute = () => {
-    history.replace("/register");
-  };
   return (
     <div className={classes.register}>
       <div className={classes.registered_customer}>
@@ -39,10 +34,9 @@ function Registered_customer() {
         <div className={classes.bottom}>
           <p>
             Don't have an account?
-            <button onClick={changeRoute}>
-              Register
-              {/* <Link to="/register"> Register </Link> */}
-            </button>
+            <span>
+              <a href="#"> Register </a>
+            </span>
           </p>
         </div>
       </div>

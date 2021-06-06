@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Button from "../Button/button";
 import Checkbox from "../Checkbox/Checkbox";
 import Input from "../Input/Input";
@@ -96,7 +95,7 @@ function Create_account() {
       </div>
       <div className={classes.createAccount_details}>
         <p>
-          Already have an account? <Link to="/login"> Login </Link>
+          Already have an account? <a href="#"> Login </a>
         </p>
       </div>
     </div>

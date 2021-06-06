@@ -8,27 +8,18 @@ import Registered_customer from "./Components/Registered_customer/Registered_cus
 import Create_account from "./Components/Registered_customer/Create_account";
 import Input from "./Components/Input/Input";
 import Profile from "./Components/Profile/Profile";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        {/* <Cart styles={{ width: "300px" }} /> */}
-        {/* <Product_category /> */}
-        {/* <Product /> */}
-        {/* <Product_cart /> */}
-        {/* <My_cart /> */}
-        <Switch>
-          <Route path="/login">
-            <Registered_customer />
-          </Route>
-          <Route path="/register">
-            <Create_account />
-          </Route>
-        </Switch>
-        {/* <Profile /> */}
-      </div>
-    </Router>
+    <div className="App">
+      <Cart styles={{ width: "300px" }} />
+      <Product_category />
+      <Product />
+      <Product_cart />
+      <My_cart />
+      <Registered_customer />
+      <Create_account />
+      <Profile />
+    </div>
   );
 }
 
