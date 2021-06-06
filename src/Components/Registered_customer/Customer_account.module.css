@@ -139,8 +139,9 @@ input[type="password"] {
 }
 .createAccount_checkCondition {
   font-size: 13px;
-  line-height: 123%;
+  line-height: 17px;
   color: #383838;
+  padding-left: 20px;
 }
 .createAccount_terms {
   color: #137c41;

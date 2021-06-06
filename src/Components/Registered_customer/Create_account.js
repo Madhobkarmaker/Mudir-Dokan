@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Button from "../Button/button";
 import Checkbox from "../Checkbox/Checkbox";
 import Input from "../Input/Input";
@@ -80,8 +81,13 @@ function Create_account() {
       <div className={classes.createAccount_checkbox}>
         <label>
           <Checkbox />
-          <p className={classes.createAccount_checkCondition}> I agree the
-           <span className={classes.createAccount_terms}>Terms & Conditions</span> </p>
+          <p className={classes.createAccount_checkCondition}>
+            {" "}
+            I agree the
+            <span className={classes.createAccount_terms}>
+              Terms & Conditions
+            </span>{" "}
+          </p>
         </label>
       </div>
 
@@ -90,7 +96,7 @@ function Create_account() {
       </div>
       <div className={classes.createAccount_details}>
         <p>
-          Already have an account? <a href="#"> Login </a>
+          Already have an account? <Link to="/login"> Login </Link>
         </p>
       </div>
     </div>
