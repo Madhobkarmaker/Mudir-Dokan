@@ -1,7 +1,7 @@
 import styles from "./button.module.css";
 
 const Button = (props) => {
-  const { onCanceled, onClicked, icon, title } = props;
+  const { onCanceled, onClicked, icon, title, img } = props;
   return (
     <div className={styles.customButton}>
       <button
@@ -9,7 +9,7 @@ const Button = (props) => {
         className="text-capitalize"
       >
         <span>{icon ? icon : ""}</span>
-        {title}{" "}
+        {title} 
       </button>
     </div>
   );

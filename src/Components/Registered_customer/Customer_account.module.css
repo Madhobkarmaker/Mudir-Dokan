@@ -45,7 +45,7 @@ input[type="password"] {
   outline: none;
   border-bottom: 1px solid #333333;
   background: transparent;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   padding: 10px 0px;
 }
@@ -95,6 +95,7 @@ input[type="password"] {
 .bottom a {
   text-decoration: none;
   cursor: pointer;
+  color: #137c41;
 }
 
 /* Create customer */
@@ -134,28 +135,41 @@ input[type="password"] {
   margin-left: 50px;
 }
 .createAccount_details {
-  margin-top: 50px;
+  margin-top: 30px;
 }
-.checkbox {
-  margin-left: 20px;
+.createAccount_checkCondition {
   font-size: 13px;
-  line-height: 16px;
+  line-height: 123%;
   color: #383838;
 }
-.checkbox a {
-  text-decoration: none;
+.createAccount_terms {
+  color: #137c41;
 }
+
+.createAccount_details p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #bdbdbd;
+  text-align: center;
+}
+.createAccount_details a {
+  text-decoration: none;
+  color: #219653;
+}
+
 /* Responsive part */
 
 @media (max-width: 460px) {
-  .customer_account h1 {
-    text-align: left;
+  /* create account */
+
+  .createAccount_name {
+    display: flex;
+    flex-direction: column;
   }
-  .customer_account p {
-    text-align: left;
-  }
-  .customer_account {
-    margin: 0px 40px;
+  .createAccount_input2 {
+    margin-left: 0px;
+    margin-top: 30px;
   }
   .registerData {
     margin-top: 30px;

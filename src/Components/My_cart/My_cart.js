@@ -45,8 +45,7 @@ function My_cart() {
         <h1>
           Subtotal: <span style={{ color: "black" }}> $9.98</span>
         </h1>
-        {/* <button>Go to Checkout</button> */}
-        <Button />
+        <button>Go to Checkout</button>
       </div>
     </div>
   );

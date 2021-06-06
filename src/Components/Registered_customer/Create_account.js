@@ -1,12 +1,17 @@
 import React, { useState } from "react";
+import Button from "../Button/button";
+import Checkbox from "../Checkbox/Checkbox";
 import Input from "../Input/Input";
 import classes from "./Customer_account.module.css";
 
 function Create_account() {
   const [account, setAccount] = useState("");
-  const test = (e) => {
-    console.log(e.target.value);
-  };
+  const [account1, setAccount1] = useState("");
+  const [account2, setAccount2] = useState("");
+  const [account3, setAccount3] = useState("");
+  const [account4, setAccount4] = useState("");
+  const [account5, setAccount5] = useState("");
+
   return (
     <div className={classes.createAccount}>
       <div className={classes.createAccount_title}>
@@ -29,8 +34,8 @@ function Create_account() {
             label="Last Name"
             type="text"
             placeholder="Last Name"
-            value={account}
-            changed={(e) => setAccount(e.target.value)}
+            value={account1}
+            changed={(e) => setAccount1(e.target.value)}
           />
         </div>
       </div>
@@ -40,8 +45,8 @@ function Create_account() {
           label="Phone Number"
           type="number"
           placeholder="Type Your Phone Number"
-          value={account}
-          changed={(e) => setAccount(e.target.value)}
+          value={account2}
+          changed={(e) => setAccount2(e.target.value)}
         />
       </div>
       <div className={classes.createAccount_details}>
@@ -49,8 +54,8 @@ function Create_account() {
           label="Address"
           type="text"
           placeholder="Type your Address"
-          value={account}
-          changed={(e) => setAccount(e.target.value)}
+          value={account3}
+          changed={(e) => setAccount3(e.target.value)}
         />
       </div>
       <div className={classes.createAccount_details}>
@@ -58,8 +63,8 @@ function Create_account() {
           label="Password"
           type="password"
           placeholder="Type Password"
-          value={account}
-          changed={(e) => setAccount(e.target.value)}
+          value={account4}
+          changed={(e) => setAccount4(e.target.value)}
         />
       </div>
       <div className={classes.createAccount_details}>
@@ -67,15 +72,26 @@ function Create_account() {
           label="Confirm Password"
           type="Password"
           placeholder="Confirm Password"
-          value={account}
-          changed={(e) => setAccount(e.target.value)}
+          value={account5}
+          changed={(e) => setAccount5(e.target.value)}
         />
       </div>
-      <div className={classes.createAccount_details}>
-        <input type="checkbox" />
-        <label className={classes.checkbox}>
-          I agree the <a href="#">terms & conditions</a>
+
+      <div className={classes.createAccount_checkbox}>
+        <label>
+          <Checkbox />
+          <p className={classes.createAccount_checkCondition}> I agree the
+           <span className={classes.createAccount_terms}>Terms & Conditions</span> </p>
         </label>
+      </div>
+
+      <div className={classes.createAccount_details}>
+        <Button title="Sing Up" />
+      </div>
+      <div className={classes.createAccount_details}>
+        <p>
+          Already have an account? <a href="#"> Login </a>
+        </p>
       </div>
     </div>
   );

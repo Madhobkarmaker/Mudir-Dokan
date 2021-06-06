@@ -27,18 +27,16 @@ function Registered_customer() {
 
         <div className={classes.btn}>
           <button>
-            {" "}
-            <span> Log in</span>{" "}
+            <span> Log in</span>
           </button>
         </div>
 
         <div className={classes.bottom}>
           <p>
-            Don't have an account?{" "}
+            Don't have an account?
             <span>
-              {" "}
-              <a href=""> Register </a>
-            </span>{" "}
+              <a href="#"> Register </a>
+            </span>
           </p>
         </div>
       </div>

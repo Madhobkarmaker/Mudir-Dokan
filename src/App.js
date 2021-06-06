@@ -7,18 +7,19 @@ import My_cart from "./Components/My_cart/My_cart";
 import Registered_customer from "./Components/Registered_customer/Registered_customer";
 import Create_account from "./Components/Registered_customer/Create_account";
 import Input from "./Components/Input/Input";
+import Profile from "./Components/Profile/Profile";
 function App() {
-  const [url, setUrl] = useState("");
-
   return (
     <div className="App">
-      {/* <Cart styles={{ width: "300px" }} />
+      <Cart styles={{ width: "300px" }} />
       <Product_category />
       <Product />
       <Product_cart />
       <My_cart />
-      <Registered_customer /> */}
+      <Registered_customer />
       <Create_account />
+      <Profile />
+      
     </div>
   );
 }
